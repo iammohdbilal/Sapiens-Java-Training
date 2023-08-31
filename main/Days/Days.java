@@ -2,6 +2,7 @@ package main.Days;
 import java.util.Scanner;
 
 import main.Days.DayOne.DayOne;
+import main.Days.DayThree.DayThree;
 import main.Days.DayTwo.DayTwo;
 
 public class Days {
@@ -22,7 +23,16 @@ public class Days {
 			DayTwo myDayTwo=new DayTwo(qno);
 			myDayTwo.start();
 			break;
+		case 3:
+			DayThree myDayThree=new DayThree(qno);
+			myDayThree.start();
+			break;
+		default:
+			System.out.println("Invalid day choice!");
+			break;
+				
 		}
+		sc.close();
 		
 		
 	}
