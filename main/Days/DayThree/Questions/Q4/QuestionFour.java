@@ -1,4 +1,4 @@
-/* 4.	Day Three Question Four:
+/* 		Day Three Question Four:
  * 		Create your own exception class using the extends keyword. 
  * 		Write a constructor for this class that takes a String argument and stores it inside the object with a String reference. 
  * 		Write a method that displays the stored String. 
